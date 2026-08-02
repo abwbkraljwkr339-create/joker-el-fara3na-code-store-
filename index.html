@@ -27,7 +27,7 @@ const apps=[
 function render(id,arr){
 let el=document.getElementById(id);
 arr.forEach(a=>{
-let msg=encodeURIComponent(`سلام يا جوكر عايز كود ${a[0]} بـ ${price}`);
+let msg=encodeURIComponent(`سلام عليكم يا جوكر عايز كود ${a[0]} بـ ${price}`);
 el.innerHTML+=`<div class="card"><span class="price">${price}</span><i class="fas ${a[1]}"></i><b>${a[0]}</b><p>${a[2]||'كود أصلي'}</p><a href="https://wa.me/17194105116?text=${msg}" target="_blank"><button class="btn">طلب بـ ${price} <i class="fab fa-whatsapp"></i></button></a></div>`;
 });
 }
