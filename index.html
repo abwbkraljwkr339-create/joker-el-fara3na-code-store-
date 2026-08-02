@@ -1,16 +1,48 @@
-<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>JOKER PHARAOH STORE</title><link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"><style>*{margin:0;padding:0;box-sizing:border-box;font-family:Cairo}body{background:#080808;color:#fff}header{display:flex;justify-content:space-between;align-items:center;padding:12px 5%;background:#111;border-bottom:2px solid #d4af37;position:sticky;top:0}header b{color:#d4af37}.hero{text-align:center;padding:40px 20px;background:radial-gradient(circle,rgba(212,175,55,.2),transparent 70%)}.hero h1{color:#d4af37;font-size:32px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;padding:15px 5%}.card{background:#151515;border:1px solid #222;border-radius:12px;padding:12px}.card b{font-size:14px}.price{color:#d4af37;float:left;font-weight:900}.btn{width:100%;background:#d4af37;color:#000;border:none;padding:9px;border-radius:7px;font-weight:900;margin-top:8px}footer{text-align:center;padding:15px;color:#555;font-size:11px}.float{position:fixed;bottom:15px;left:15px;background:#25D366;width:55px;height:55px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:26px;text-decoration:none}</style></head><body>
-<header><b>👑 JOKER PHARAOH</b><a href="https://wa.me/17194105116" style="background:#d4af37;color:#000;padding:6px 12px;border-radius:20px;text-decoration:none;font-size:12px;font-weight:900">تواصل</a></header>
-<div class="hero"><h1>JOKER PHARAOH STORE</h1><p style="color:#999">أقوى متجر أكواد في مصر - تسليم فوري</p><p style="color:#d4af37;margin-top:10px">فودافون كاش: 01001946959 | واتساب: +17194105116</p></div>
-<div class="grid" id="g"></div>
-<footer>© JOKER PHARAOH PREMIUM</footer>
-<a class="float" href="https://wa.me/17194105116?text=سلام يا جوكر عايز اطلب"><i class="fab fa-whatsapp"></i></a>
+<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>JOKER PHARAOH - أكواد</title><link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;900&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"><style>*{margin:0;padding:0;box-sizing:border-box;font-family:Cairo}body{background:#090909;color:#fff}header{display:flex;justify-content:space-between;align-items:center;padding:12px 5%;background:#111;border-bottom:2px solid #d4af37;position:sticky;top:0;z-index:9}h2{color:#d4af37;text-align:center;margin:25px 0 10px;font-size:20px}h2 span{color:#fff;font-size:12px;display:block;margin-top:4px;letter-spacing:2px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:10px;padding:0 4%}.card{background:linear-gradient(145deg,#171717,#101010);border:1px solid #222;border-radius:12px;padding:12px;text-align:center;transition:.2s}.card:hover{border-color:#d4af37;transform:translateY(-3px)}.card i{font-size:26px;color:#d4af37;margin-bottom:8px}.card b{display:block;font-size:12px;margin:5px 0}.card p{font-size:10px;color:#777}.btn{width:100%;background:#d4af37;color:#000;border:none;padding:6px;border-radius:6px;font-weight:900;margin-top:7px;font-size:11px;cursor:pointer}.pay{margin:25px 4%;background:#111;border:1.5px dashed #d4af37;padding:15px;border-radius:10px;text-align:center}.float{position:fixed;bottom:15px;left:15px;background:#25D366;width:54px;height:54px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:26px;text-decoration:none;z-index:99}</style></head><body>
+<header><b style="color:#d4af37">👑 JOKER PHARAOH CODE STORE</b><a href="https://wa.me/17194105116" style="background:#d4af37;color:#000;padding:5px 12px;border-radius:20px;text-decoration:none;font-size:11px;font-weight:900">واتساب</a></header>
+
+<h2>🎮 أكواد الألعاب <span>GAME CODES - 8</span></h2>
+<div class="grid" id="games"></div>
+
+<h2>📱 أكواد البرامج <span>APP CODES - 12</span></h2>
+<div class="grid" id="apps"></div>
+
+<div class="pay"><h4 style="color:#d4af37">طرق الدفع - JOKER PHARAOH</h4><p style="font-size:12px;color:#aaa;margin-top:5px">فودافون كاش: <b style="color:#fff">01001946959</b> | واتساب: <b style="color:#fff">+1 719 410 5116</b></p><p style="font-size:10px;color:#666;margin-top:5px">اضغط شراء وهيفتح واتساب تلقائي بكود المنتج</p></div>
+
+<a class="float" href="https://wa.me/17194105116?text=سلام يا جوكر عايز كود من المتجر"><i class="fab fa-whatsapp"></i></a>
 <script>
-const items=[["ببجي 660 UC","450ج"],["فري فاير 1090 جوهرة","380ج"],["ستيم 10$","500ج"],["موبايل ليجند 1000","400ج"],["PS Plus شهر","350ج"],["ChatGPT Plus","250ج"],["10K تيك توك","300ج"],["يوتيوب بريميوم سنة","280ج"]];
-const g=document.getElementById("g");
-items.forEach(a=>{
-let m=encodeURIComponent(`سلام يا جوكر عايز ${a[0]} بسعر ${a[1]}`);
-g.innerHTML+=`<div class="card"><div><b>${a[0]}</b><span class="price">${a[1]}</span></div><a href="https://wa.me/17194105116?text=${m}" target="_blank"><button class="btn"><i class="fab fa-whatsapp"></i> شراء واتساب</button></a></div>`
+const games=[
+["كورة","fa-futbol","أكواد ألعاب كرة قدم"],
+["أسلحة وقتال","fa-gun","أكواد ألعاب حرب وأكشن"],
+["لعبة طبخ","fa-utensils","أكواد ألعاب طبخ ومطاعم"],
+["ألغاز","fa-puzzle-piece","أكواد ألعاب ذكاء وألغاز"],
+["شبيهة ببجي","fa-person-rifle","أكواد باتل رويال زي ببجي"],
+["سباق عربيات","fa-car-side","أكواد سباق سيارات"],
+["سباق مكن","fa-motorcycle","أكواد سباق موتوسيكلات"],
+["مغامرات","fa-dragon","أكواد مغامرات وأكشن"]
+];
+const apps=[
+["تعديل صور 1","fa-image","PicsArt Pro Code"],
+["تعديل صور 2","fa-wand-magic-sparkles","Remini Pro"],
+["تعديل صور 3","fa-camera-retro","Lightroom Pro"],
+["تصميم صور 1","fa-palette","Canva Pro Code"],
+["تصميم صور 2","fa-bezier-curve","PixelLab Pro"],
+["تصميم صور 3","fa-pen-nib","تصميم لوجوهات"],
+["تصميم أغاني","fa-music","تعديل وصناعة أغاني"],
+["آلة حاسبة","fa-calculator","آلة حاسبة مطورة"],
+["أسعار الدولار","fa-dollar-sign","متابعة أسعار العملات"],
+["كيبورد زخرفة","fa-keyboard","كيبورد مزخرف احترافي"],
+["واتساب ذهبي","fa-whatsapp","نسخة واتساب متعدلة 1"],
+["واتساب عمر","fa-whatsapp","نسخة واتساب متعدلة 2"]
+];
+function render(id,arr){
+let el=document.getElementById(id);
+arr.forEach(a=>{
+let msg=encodeURIComponent(`سلام يا جوكر 👑 عايز كود: ${a[0]} - ${a[2]}`);
+el.innerHTML+=`<div class="card"><i class="fas ${a[1]}"></i><b>${a[0]}</b><p>${a[2]}</p><a href="https://wa.me/17194105116?text=${msg}" target="_blank"><button class="btn"><i class="fab fa-whatsapp"></i> طلب الكود</button></a></div>`;
 });
+}
+render("games",games);render("apps",apps);
 </script>
 </body>
 </html>
